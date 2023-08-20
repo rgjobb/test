@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Roger\\repos\\tmp\\NewIglooTest\\NewIglooTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Roger\\repos\\tmp\\NewIglooTest\\NewIglooTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Roger\\repos\\tmp\\NewIglooTest\\NewIglooTest.csproj",
+        "projectName": "NewIglooTest",
+        "projectPath": "C:\\Users\\Roger\\repos\\tmp\\NewIglooTest\\NewIglooTest.csproj",
+        "packagesPath": "C:\\Users\\Roger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roger\\repos\\tmp\\NewIglooTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Roger\\repos\\nuget-library": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.umbraco.idium.no/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LittleNorth.Igloo": {
+              "target": "Package",
+              "version": "[5.0.3-RC001, )"
+            },
+            "Microsoft.ICU.ICU4C.Runtime": {
+              "target": "Package",
+              "version": "[68.2.0.9, )"
+            },
+            "Umbraco.Cms": {
+              "target": "Package",
+              "version": "[10.3.2, )"
+            },
+            "Umbraco.Forms": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "uSync": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
